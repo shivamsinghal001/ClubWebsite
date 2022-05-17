@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>TSI - Home</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="index.html">TSI</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="elements.html">Elements</a></li>
+					<li><a href="generic.html">Generic</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h1>Tech+Social Impact</h1>
+					<p>A Club that Promotes Collaboration, Equality, and Social Awareness through Technology</p>
+				</div>
+				<video autoplay loop muted playsinline src="images/banner.mp4"></video>
+			</section>
+
+		<!-- Highlights -->
+			<section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>Purpose</h2>
+						<p>This club is one that thrives on diversity. The long-term vision for our organization is to create a tight-knit community that harnesses the power of the strong tech culture in Berkeley to develop projects and conversations that are socially relevant. Join us to find out how you can use your programming prowess to do some good in the community!</p>
+					</header>
+					<div class="highlights">
+    					<img class="center" name='slide' width="600" height="200" />
+						<script type="text/javascript">
+							var i = 0; 			// Start Point
+							var images = [];	// Images Array
+							var time = 3000;	// Time Between Switch
+								 
+							// Image List
+							images[0] = "images/pic01.jpg";
+							images[1] = "images/pic02.jpg";
+							images[2] = "images/pic03.jpg";
+
+							// Change Image
+							function changeImg(){
+								document.slide.src = images[i];
+
+								// Check If Index Is Under Max
+								if(i < images.length - 1){
+								  // Add 1 to Index
+								  i++; 
+								} else { 
+									// Reset Back To O
+									i = 0;
+								}
+
+								// Run function every x seconds
+								setTimeout("changeImg()", time);
+							}
+
+							// Run function when page loads
+							window.onload=changeImg;
+						</script>
+					</div>
+				</div>
+			</section>
+
+		<!-- CTA -->
+			<section id="cta" class="wrapper">
+				<div class="inner">
+					<h2>Take a look at some of our past events!</h2>
+					<p>From a speaker series featuring powerful women in tech to a competition that encourages students to talk with each other and build something that can help the world, our organization has and will continue to do it all. Take a look at some of our past events!</p>
+					<button onclick="location.href='events.html'"type="button">Learn More </button>
+				</div>
+			</section>
+
+		<!-- Testimonials -->
+			<section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>Some of our past social media posts</h2>
+						<p>We have made some interesting posts across the years that call on everyone to take action in whatever way they can and encourage everyone to uphold their civic duties. Let us know what you think!</p>
+					</header>
+					<div class="testimonials">
+						<!-- Place <div> tag where you want the feed to appear -->
+						<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+						<!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+						<script type="text/javascript">
+						/* curator-feed-default-feed-layout */
+						(function(){
+						var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+						i.src = "https://cdn.curator.io/published/ce21e97c-874d-4ba2-bfeb-317797b465eb.js";
+						e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+						})();
+						</script>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="content">
+						<section>
+							<h3>UC Berkeley Student Group Disclaimer</h3>
+							<p>We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site..</p>
+						</section>
+						<section>
+							<ul class="alt">
+								<li><a href="#">About Us.</a></li>
+								<li><a href="#">Events.</a></li>
+								<li><a href="#">Apply.</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</section>
+						<section>
+							<ul class="plain">
+								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+								<li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+								<li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="copyright">
+						&copy; Tech+Social Impact.
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
