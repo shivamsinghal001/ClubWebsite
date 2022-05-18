@@ -658,7 +658,7 @@ table.alt tbody tr td {
   border-color: rgba(0, 0, 0, 0.25); }
 
 /* Highlights */
-.highlights {
+/*.highlights {
   width: 100%;
   margin: 2.5rem 0;
   display: -moz-flex;
@@ -792,7 +792,7 @@ table.alt tbody tr td {
 .highlights .content {
   background: #ffffff;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); }
-
+*/
 /* Testimonials */
 .testimonials {
   margin: 2.5rem 0;
@@ -2061,7 +2061,7 @@ ul.icons {
   background-color: #3B7EA1;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(59, 126, 161, 0.75), rgba(59, 126, 161, 0.75)), url(../../images/cta01.jpg);
+  background-image: linear-gradient(rgba(59, 126, 161, 0.75), rgba(59, 126, 161, 0.75)), url(images/cta01.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2202,6 +2202,154 @@ ul.icons {
     z-index: 3; }
   @media screen and (max-width: 980px) {
     #cta {
+      background-attachment: scroll; } }
+
+/* CTAABOUT */
+#ctaabout {
+  background-color: #3B7EA1;
+  color: rgba(255, 255, 255, 0.75);
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(59, 126, 161, 0.75), rgba(59, 126, 161, 0.75)), url(../../images/back.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  z-index: 1; }
+  #ctaabout input, #ctaabout select, #ctaabout textarea {
+    color: #ffffff; }
+  #ctaabout a {
+    color: #ffffff; }
+  #ctaabout strong, #ctaabout b {
+    color: #ffffff; }
+  #ctaabout h1, #ctaabout h2, #ctaabout h3, #ctaabout h4, #ctaabout h5, #ctaabout h6 {
+    color: #ffffff; }
+  #ctaabout blockquote {
+    border-left-color: rgba(255, 255, 255, 0.25); }
+  #ctaabout code {
+    background: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.25); }
+  #ctaabout hr {
+    border-bottom-color: rgba(255, 255, 255, 0.25); }
+  #ctaabout input[type="submit"],
+  #ctaabout input[type="reset"],
+  #ctaabout input[type="button"],
+  #ctaabout button,
+  #ctaabout .button {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 1px #ffffff;
+    color: #ffffff !important; }
+    #ctaabout input[type="submit"]:hover,
+    #ctaabout input[type="reset"]:hover,
+    #ctaabout input[type="button"]:hover,
+    #ctaabout button:hover,
+    #ctaabout .button:hover {
+      background-color: rgba(255, 255, 255, 0.1); }
+      #ctaabout input[type="submit"]:hover:active,
+      #ctaabout input[type="reset"]:hover:active,
+      #ctaabout input[type="button"]:hover:active,
+      #ctaabout button:hover:active,
+      #ctaabout .button:hover:active {
+        background-color: rgba(255, 255, 255, 0.25); }
+    #ctaabout input[type="submit"].primary,
+    #ctaabout input[type="reset"].primary,
+    #ctaabout input[type="button"].primary,
+    #ctaabout button.primary,
+    #ctaabout .button.primary {
+      box-shadow: none;
+      background-color: #ffffff;
+      color: #ce1b28 !important; }
+      #ctaabout input[type="submit"].primary:hover,
+      #ctaabout input[type="reset"].primary:hover,
+      #ctaabout input[type="button"].primary:hover,
+      #ctaabout button.primary:hover,
+      #ctaabout .button.primary:hover {
+        background-color: rgba(255, 255, 255, 0.875);
+        box-shadow: none; }
+        #ctaabout input[type="submit"].primary:hover:active,
+        #ctaabout input[type="reset"].primary:hover:active,
+        #ctaabout input[type="button"].primary:hover:active,
+        #ctaabout button.primary:hover:active,
+        #ctaabout .button.primary:hover:active {
+          background-color: rgba(255, 255, 255, 0.5); }
+  #ctaabout label {
+    color: #ffffff; }
+  #ctaabout input[type="text"],
+  #ctaabout input[type="password"],
+  #ctaabout input[type="email"],
+  #ctaabout input[type="tel"],
+  #ctaabout input[type="search"],
+  #ctaabout input[type="url"],
+  #ctaabout select,
+  #ctaabout textarea {
+    background-color: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.25); }
+    #ctaabout input[type="text"]:focus,
+    #ctaabout input[type="password"]:focus,
+    #ctaabout input[type="email"]:focus,
+    #ctaabout input[type="tel"]:focus,
+    #ctaabout input[type="search"]:focus,
+    #ctaabout input[type="url"]:focus,
+    #ctaabout select:focus,
+    #ctaabout textarea:focus {
+      border-color: #ffffff;
+      box-shadow: 0 0 0 1px #ffffff; }
+  #ctaabout select {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.25)' /%3E%3C/svg%3E"); }
+    #ctaabout select option {
+      color: rgba(255, 255, 255, 0.75);
+      background-color: #ce1b28; }
+  #ctaabout input[type="checkbox"] + label,
+  #ctaabout input[type="radio"] + label {
+    color: rgba(255, 255, 255, 0.75); }
+    #ctaabout input[type="checkbox"] + label:before,
+    #ctaabout input[type="radio"] + label:before {
+      background: rgba(255, 255, 255, 0.075);
+      border-color: rgba(255, 255, 255, 0.25); }
+  #ctaabout input[type="checkbox"]:checked + label:before,
+  #ctaabout input[type="radio"]:checked + label:before {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #ce1b28; }
+  #ctaabout input[type="checkbox"]:focus + label:before,
+  #ctaabout input[type="radio"]:focus + label:before {
+    border-color: #ffffff;
+    box-shadow: 0 0 0 1px #ffffff; }
+  #ctaabout ::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  #ctaabout :-moz-placeholder {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  #ctaabout ::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  #ctaabout :-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  #ctaabout ul.alt li {
+    border-top-color: rgba(255, 255, 255, 0.25); }
+  #ctaabout table tbody tr {
+    border-color: rgba(255, 255, 255, 0.25); }
+    #ctaabout table tbody tr:nth-child(2n + 1) {
+      background-color: rgba(255, 255, 255, 0.075); }
+  #ctaabout table th {
+    color: #ffffff; }
+  #ctaabout table thead {
+    border-bottom-color: rgba(255, 255, 255, 0.25); }
+  #ctaabout table tfoot {
+    border-top-color: rgba(255, 255, 255, 0.25); }
+  #ctaabout table.alt tbody tr td {
+    border-color: rgba(255, 255, 255, 0.25); }
+  #ctaabout .highlights .content {
+    background: #ce1b28;
+    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
+  #ctaabout .testimonials .content {
+    background: #ce1b28;
+    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
+    #ctaabout .testimonials .content .credit strong {
+      color: #ce1b28; }
+  #ctaabout .inner {
+    position: relative;
+    z-index: 3; }
+  @media screen and (max-width: 980px) {
+    #ctaabout {
       background-attachment: scroll; } }
 
 /* Footer */
