@@ -2061,8 +2061,8 @@ ul.icons {
   background-color: #3B7EA1;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(59, 126, 161, 0.75), rgba(59, 126, 161, 0.75)), url(images/cta01.jpg);
-  background-position: bottom;
+/*  background-image: linear-gradient(rgba(59, 126, 161, 0.75), rgba(59, 126, 161, 0.75)), url(images/cta01.jpg);
+*/  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -2087,6 +2087,9 @@ ul.icons {
   #cta input[type="reset"],
   #cta input[type="button"],
   #cta button,
+  #cta .bg1 {
+/*      background-image: linear-gradient(rgba(59, 126, 161, 0.75), rgba(59, 126, 161, 0.75)), url(images/banner.jpg);
+*/  }
   #cta .button {
     background-color: transparent;
     box-shadow: inset 0 0 0 1px #ffffff;
