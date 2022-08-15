@@ -128,8 +128,12 @@ em, i {
 p {
   margin: 0 0 2rem 0; }
 
+
 header.special {
   text-align: center;
+  margin-bottom: 4rem; }
+  header.special s {
+  text-align: left;
   margin-bottom: 4rem; }
   header.special p {
     max-width: 75%;
