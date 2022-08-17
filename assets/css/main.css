@@ -253,6 +253,18 @@ hr {
     .inner {
       max-width: calc(100% - 3rem); } }
 
+.gallery {
+    display: grid;
+    align: center;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 /* Button */
 input[type="submit"],
 input[type="reset"],
@@ -1777,6 +1789,10 @@ ul.icons {
   .image img {
     border-radius: 4px;
     display: block; }
+    .image.center {
+      width:100%;
+
+    }
   .image.left, .image.right {
     max-width: 40%; }
     .image.left img, .image.right img {

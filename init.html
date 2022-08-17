@@ -40,27 +40,120 @@
 
 			<section class="wrapper">
 				<div class="inner">
-							<h2>Past Initiatives</h2>
+					<dt> In our short lifetime, we have had a lot of fun while serving our community. Take a look at our current and past work! </dt>
+					<br>
+					<img class="center" name='slide' width="1000" height="350" />
+						<script type="text/javascript">
+							var i = 0; 			// Start Point
+							var images = [];	// Images Array
+							var time = 3000;	// Time Between Switch
+								 
+							// Image List
+							images[0] = "images/1.png";
+							images[1] = "images/2.png";
+							images[2] = "images/3.png";
+							images[3] = "images/4.png";
+							images[4] = "images/5.png";
+							images[5] = "images/6.png";
+							images[6] = "images/7.png";
+							images[7] = "images/8.png";
+							images[8] = "images/9.png";
+							images[9] = "images/10.png";
+							images[10] = "images/11.png";
+							images[11] = "images/12.png";
+							images[12] = "images/13.png";
+							images[13] = "images/14.png";
+							images[14] = "images/15.png";
+							images[15] = "images/16.png";
+							images[16] = "images/17.png";
+							images[17] = "images/18.png";
+							images[18] = "images/19.png";
+
+							// Change Image
+							function changeImg(){
+								document.slide.src = images[i];
+
+								// Check If Index Is Under Max
+								if(i < images.length - 1){
+								  // Add 1 to Index
+								  i++; 
+								} else { 
+									// Reset Back To O
+									i = 0;
+								}
+
+								// Run function every x seconds
+								setTimeout("changeImg()", time);
+							}
+
+							// Run function when page loads
+							window.onload=changeImg;
+						</script>
+						<br>
+						<br>
+							<h2>Current Initiatives</h2>
 							<dl>
 								<dt>Technology and Social Impact Decal</dt>
 								<dd>
 									<p>For the past few semesters, we have offered a decal focused on having conversations that explore the ethics of technology in various fields. Check out our <a href="decal.html">DeCal</a> page for more details!</p>
+									<img src='images/decal.png' class='center'>
+									<br>
 								</dd>
+
+								<dt>Speaker Series and Coffee Chats</dt>
+								<dd>
+									<p>We have some really exciting speakers planned for the coming semester! As we return to campus, we hope to have larger speaker series like in the past, but also some smaller, more casual conversations over some coffee.</p>
+								</dd>
+								<p> For up-to-date information about our planned events, please refer to the calendar below: </p>
+							</dl>
+							<div align="center">
+							<iframe src="https://calendar.google.com/calendar/embed?src=techimpactberkeley%40gmail.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+						</div>
+						<br>
+							<h2>Past Events</h2>
+							<dl>
 								<dt></dt>
-								<dt>Speaker Series</dt>
+								<dt>Ethics in... with Nick Weaver, Josh Hug, and John Denero (Spring 2022):</dt>
 								<dd>
 									<p>
-										Ethics in... (Spring 2022): We invited experts in the fields of security, education, and artificial intelligence to speak with us about the interesting ethical implications of different activities associated with their respective lines of work. 
-<br>
-										<img class="center" src="pic04.png" name='slide' width="1000" height="350" />
-									</p>
-								<ul>
-												<li>Dolor pulvinar amet etiam.</li>
-												<li>Sagittis adipiscing lorem eleifend.</li>
-												<li>Felis enim feugiat viverra.</li>
-											</ul>
+										 We invited experts in the fields of security, education, and artificial intelligence to speak with us about the interesting ethical implications of different activities associated with their respective lines of work. 
+					<div class="row">
+								<div class="card" >
+									<img src="images/tsi_speak2.png" alt="Nancy" style="width:100%">
+								</div>
+								<div class="card" >
+									<img src="images/tsi_speak1.png" alt="Nancy" style="width:100%">
+								</div>
+								<div class="card" >
+									<img src="images/tsi_speak.png" alt="Nancy" style="width:100%">
+								</div>
+						</div>
+					</p>
+						<p></p>
+					</dd>
+					<dt>Fairness and Equity in Tech with Arpita Singhal and Seyi Olojo  (Fall 2021): </dt>
+									<dd>
+										Two PhD students currently involved in fairness-related AI research came and talked about their experiences, as well as what practical considerations to make when designing software tools. 
+									</dd>
+									<br>
+									<img src='images/tsi_speak_3.jpeg' class='center'>	
+									<p></p>	
 								</dd>
+								<dt> An EdTech Conversation with Gracie Elqura (Fall 2018): </dt>
+								<dd>
+									<p>
+										   A Google Software Engineer shared her expertise in educational technology with the Berkeley community. 
+									</p>
+									<img src='images/tsi_speak4.jpg' class='center'>		
+								</dd>
+								<p></p> 
+								<p> Please reach out to us if you are interested in viewing recordings from these events! </p>
+								
+<!-- 					</div>
+ --><!-- 				</div>
+ -->			<!-- </section> -->
 							</dl>
+
 					</header>
 			</section>
 
